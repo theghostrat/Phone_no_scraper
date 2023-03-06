@@ -1,7 +1,7 @@
 # Phone Number Scraper
 
 This is a Python program that scrapes web pages for phone numbers and saves them to a file. It uses the requests library to fetch web pages, the BeautifulSoup library to parse HTML, and regular expressions to search for phone numbers.
-Requirements
+
 
 This program requires Python 3 and the following Python libraries:
 
