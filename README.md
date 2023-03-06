@@ -19,6 +19,7 @@ To use the program, run the find_Phones function with a starting URL and a searc
   python phone_scraper.py 
 
 Enter the Base URL:  <---- your url here
+
 Enter the search string for url:   <----- your url search string here
   
   
