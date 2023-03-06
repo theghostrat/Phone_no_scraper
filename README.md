@@ -22,13 +22,13 @@ Enter the Base URL:  <---- your url here
 Enter the search string for url:   <----- your url search string here
   
   
-  from phone_scraper import find_Phones
+    from phone_scraper import find_Phones
 
-  # set the starting URL and the search string for URLs
+    # set the starting URL and the search string for URLs
       url = 'https://example.com'
       search_str = 'example'
 
-  # scrape the web pages for phone numbers
+    # scrape the web pages for phone numbers
       find_Phones(url, search_str)
 
 The find_Phones function will crawl the web pages starting from the specified URL and follow any links that contain the search string. It will search for phone numbers in the text of each web page and save them to a file called phone_no.txt.
